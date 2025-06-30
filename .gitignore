@@ -1,0 +1,49 @@
+# Byte-compiled / cache / temp files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+**/venv/
+.venv/
+
+# macOS / Windows system files
+.DS_Store
+Thumbs.db
+
+# Python egg info
+*.egg-info/
+dist/
+build/
+
+# FTP log file
+file_service/ftp_log.txt
+
+# Uploads folder (optional: only ignore if not required in repo)
+file_service/uploads/
+
+# Temp data in frontend
+frontend/temp/
+
+# User CLI config/cache/downloads
+ftp_cli/user_config.json
+ftp_cli/downloads/
+
+# Auth service data
+auth_service/users.json
+
+
+# Editor / IDE settings
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Environment or secret config files
+.env
+*.env
+
+# Other
+*.log
+*.tmp
+*.swp
