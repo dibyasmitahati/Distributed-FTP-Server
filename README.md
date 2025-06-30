@@ -43,19 +43,9 @@ Each microservice is deployed separately:
 
 | Service      | Deployed URL (Example)                         |
 | ------------ | ---------------------------------------------- |
-| Auth Service | `https://auth-service.onrender.com`            |
-| File Service | `https://file-service.onrender.com`            |
-| Frontend     | `https://ftp-frontend.onrender.com` (Optional) |
-
-### 🛠 Render Setup Steps
-
-1. Push each folder to GitHub
-2. Add `requirements.txt`, `app.py`, and `Procfile` in each service
-3. Deploy as **Web Services** on [Render](https://render.com)
-4. Set Build: `pip install -r requirements.txt`
-5. Set Start Command: `gunicorn app:app`
-
-See full deployment steps in the project report or [Deployment Guide](#).
+| Auth Service | `https://auth-service-xc1o.onrender.com`            |
+| File Service | `https://file-service-v7zj.onrender.com`            |
+| Frontend     | `https://ftp-frontend-zvui.onrender.com` |
 
 ---
 
@@ -84,7 +74,7 @@ python main.py
 
 ## 🌐 Web Usage
 
-Go to your deployed **frontend URL**, sign up/login, and use the UI to upload and download files.
+Go to your deployed **[frontend URL](https://ftp-frontend-zvui.onrender.com)**, sign up/login, and use the UI to upload and download files.
 
 ---
 
