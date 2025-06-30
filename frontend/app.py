@@ -5,8 +5,8 @@ import requests
 app = Flask(__name__)
 app.secret_key = 'your-secret-key'
 
-AUTH_URL = 'http://localhost:5001'
-FILE_URL = 'http://localhost:5002'
+AUTH_URL = 'https://auth-service-xc1o.onrender.com'
+FILE_URL = 'https://file-service-v7zj.onrender.com'
 
 # Home Page
 @app.route('/')
