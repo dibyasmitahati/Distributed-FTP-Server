@@ -25,20 +25,6 @@ A modular and scalable FTP (File Transfer Protocol) system built using Python an
 
 ---
 
-## 📁 Project Structure
-
-```bash
-DISTRIBUTED-FTP-SERVER/
-├── auth_service/         # Auth microservice
-├── file_service/         # File handling microservice
-├── frontend/             # Web UI using Flask + templates
-├── ftp_cli/              # Command-line interface client
-├── docs/                 # Project report/docs
-└── README.md
-```
-
----
-
 ## 🚀 Deployment (Render)
 
 Each microservice is deployed separately:
@@ -48,6 +34,12 @@ Each microservice is deployed separately:
 | Auth Service | `https://auth-service-xc1o.onrender.com`            |
 | File Service | `https://file-service-v7zj.onrender.com`            |
 | Frontend     | `https://ftp-frontend-zvui.onrender.com` |
+
+---
+
+## 🌐 Web Usage
+
+Go to your deployed **[frontend URL](https://ftp-frontend-zvui.onrender.com)**, sign up/login, and use the UI to upload and download files.
 
 ---
 
@@ -71,12 +63,6 @@ python main.py
 | `list`     | List uploaded files          |
 | `download` | Download file from server    |
 | `logout`   | Logout current session       |
-
----
-
-## 🌐 Web Usage
-
-Go to your deployed **[frontend URL](https://ftp-frontend-zvui.onrender.com)**, sign up/login, and use the UI to upload and download files.
 
 ---
 
