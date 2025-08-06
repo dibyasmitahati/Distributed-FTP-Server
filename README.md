@@ -1,25 +1,27 @@
-## 📁 Distributed FTP Server (Microservices + CLI + Web)
+# Distributed FTP Server (Microservices + CLI + Web)
 
-A simple, educational **distributed file transfer system** built with Python and Flask, featuring:
-
-* 🔐 Auth microservice (`auth_service`)
-* 📂 File upload/download microservice (`file_service`)
-* 🌐 Web frontend (`frontend`)
-* 💻 Command-line client (`ftp_cli`)
-
-This project is designed as a **Distributed Systems semester project**, supporting both **web UI** and **CLI interface**.
+A modular and scalable FTP (File Transfer Protocol) system built using Python and Flask. This project simulates a cloud-based distributed file-sharing environment using microservices architecture, complete with authentication, file management, and a web-based frontend interface.
 
 ---
 
 ## 📦 Features
 
-* 🧩 Modular microservices (Auth, File)
-* ✅ User registration & login
-* 📤 Upload/download files via web or CLI
-* 🔐 Secure password hashing
-* ⛔ Max upload size + file type restrictions
-* 🌐 Deployable on Render (free tier)
-* 📊 Clean architecture for showcasing distributed design
+- User Authentication (Login & Registration)
+- File Upload, Download, and Management
+- Microservices Architecture
+- Web-based Frontend (HTML, CSS, Bootstrap, Jinja)
+- Command Line Interface (CLI) Client
+- Scalable Service Structure
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** HTML5, CSS3, Bootstrap, Jinja2 (Flask templates)
+- **Backend:** Python, Flask
+- **Architecture:** Microservices (Auth Service, File Service, Frontend)
+- **Database:** SQLite (for user auth)
+- **Version Control:** Git & GitHub
 
 ---
 
@@ -94,12 +96,6 @@ Each microservice can be tested individually using:
 * **curl**
 * **Browser UI**
 * **CLI**
-
----
-
-## 📄 License
-
-This project is for **educational and academic use** under [MIT License](LICENSE).
 
 ---
 
